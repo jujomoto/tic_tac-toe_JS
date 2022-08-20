@@ -1,9 +1,15 @@
 #app {
+	height: 100vh;
 	width: 300px;
 	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 #player {
+	margin-bottom: 20px;
 	font-size: 30px;
 	font-weight: bold;
 	text-align: center;
@@ -24,4 +30,11 @@
 	border: solid 1px black;
 	font-size: 29px;
 	font-weight: bolder;
+}
+
+#btn {
+	margin-top: 20px;
+	cursor: pointer;
+	border-radius: 5px;
+	width: 100px;
 }
